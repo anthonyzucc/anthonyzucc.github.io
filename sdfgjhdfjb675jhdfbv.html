@@ -1,0 +1,8 @@
+<script>
+  var hash = window.location.hash.substring(1); // removes the "#"
+  if (hash) {
+    document.location.href = 'http://dirttax.store/' + hash;
+  } else {
+    document.location.href = 'http://dirttax.store/';
+  }
+</script>
